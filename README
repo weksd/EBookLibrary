@@ -38,27 +38,27 @@ Genre
 Year
 FilePath
 
-EBookLibrary/
-*App.xaml - точка входа в приложение
-*App.xaml.cs - логика запуска
-* MainWindow.xaml - главное окно
-*MainWindow.xaml.cs - логика главного окна
-*Models/
-*Book.cs - модель книги
-* User.cs - модель пользователя
+  EBookLibrary/
+– App.xaml - точка входа в приложение
+– App.xaml.cs - логика запуска
+– MainWindow.xaml - главное окно
+– MainWindow.xaml.cs - логика главного окна
+ Models/
+– Book.cs - модель книги
+– User.cs - модель пользователя
 
-*Services/
-*DatabaseService.cs - работа с SQLite
-*AuthService.cs - авторизация и регистрация
-*BookService.cs - управление книгами
-* CsvService.cs - импорт и экспорт CSV
-*BackupService.cs - резервное копирование
-*Logger.cs - логирование
+ Services/
+– DatabaseService.cs - работа с SQLite
+– AuthService.cs - авторизация и регистрация
+– BookService.cs - управление книгами
+– CsvService.cs - импорт и экспорт CSV
+– BackupService.cs - резервное копирование
+– Logger.cs - логирование
 
-* Views/
-*LoginWindow.xaml - окно входа
-*LoginWindow.xaml.cs
-*RegisterWindow.xaml - окно регистрации
-*RegisterWindow.xaml.cs
-*BookEditWindow.xaml - окно добавления/редактирования книги
-*BookEditWindow.xaml.cs
+ Views/
+– LoginWindow.xaml - окно входа
+– LoginWindow.xaml.cs
+– RegisterWindow.xaml - окно регистрации
+– RegisterWindow.xaml.cs
+– BookEditWindow.xaml - окно добавления/редактирования книги
+– BookEditWindow.xaml.cs
